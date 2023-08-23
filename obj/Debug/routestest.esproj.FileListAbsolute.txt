@@ -1,0 +1,2 @@
+C:\Users\cory.holenstein\OneDrive - USAN\Documents\Personal Projects\RoutesTest\RoutesTest\obj\Debug\routestest.esproj.CoreCompileInputs.cache
+C:\Users\Coryb\Projects\NewViteResumeWebsite\RoutesTest\obj\Debug\routestest.esproj.CoreCompileInputs.cache
