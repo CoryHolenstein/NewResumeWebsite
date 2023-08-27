@@ -23,6 +23,12 @@
     background-size: contain;
     border: 3px solid black;
 }
+label {
+    padding: 4px;
+    font-weight: bold;
+    display: block;
+}
+
 
 .footer-page {
     width: 100%;
@@ -44,4 +50,37 @@
     font-family: 'Roboto Slab', serif;
     font-size: 22px;
     font-weight: 400;
+}
+.button {
+    position: relative;
+    background-color: #155789;
+    border: none;
+    font-size: 22px;
+    color: #FFFFFF;
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.button:after {
+        content: "";
+        background: #f1f1f1;
+        display: block;
+        position: absolute;
+        padding-top: 300%;
+        padding-left: 350%;
+        margin-left: -20px !important;
+        margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s
+ }
+
+.button:active:after {
+        padding: 0;
+        margin: 0;
+        opacity: 1;
+        transition: 0s
 }

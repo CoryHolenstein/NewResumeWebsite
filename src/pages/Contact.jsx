@@ -1,10 +1,12 @@
 import React, { useState, Component, useRef, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import LinkedIn from '../Icons/Linkedin-logo3.png';
+import getEmailRegex from '../constants/RegexPatterns'
 function Contact() {
 
-
-
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
     const [emailResponse, setEmailResponse] = useState("");
     const form = useRef();
 
@@ -32,13 +34,14 @@ function Contact() {
 
             <form ref={form} onSubmit={sendEmail} >
                 <label>Name: </label>
-                <input type="text" name="name" /> <br></br>
+                <input type="text" name="name" required={true} onChange={e => setName(e.target.value)} /> <br></br>
                 <label>Email: </label>
-                <input type="email" name="email" /> <br></br>
+                <input type="email" name="email" required={true} pattern={getEmailRegex} onChange={e => setEmail(e.target.value)} /> <br></br>
                 <label>Message: </label>
-                <textarea name="message" rows="2" cols="20" />  <br></br>
-                <input type="submit" value="Send" /> <br></br>
+                <textarea name="message" rows="2" cols="20" required={true}  onChange={e => setMessage(e.target.value)} />  <br></br>
+                <input type="submit" value="Send" className="button" /> <br></br>
             </form>
+
             <h3 className="email-response">{emailResponse}</h3>
 
             <h1> Connect</h1>
