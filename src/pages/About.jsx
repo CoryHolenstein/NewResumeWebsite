@@ -15,7 +15,7 @@ function About() {
                 with a concentration in mobile development.</p>
 
             <p>I am currently a full time employee at USAN, a company specializing in business communication software.</p>
-            <p>  I'm open to a full time position where I will be challenged and very productive.</p>
+            <p>  I'm open to a full time position where I will be challenged and highly productive.</p>
 
 
             <p>My hobbies include programming (React and C# mainly), gaming (World of Warcraft, Battlefield), working out, and of course, playing with my cats!</p>
