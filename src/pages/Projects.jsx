@@ -12,7 +12,7 @@ function Projects() {
 
                 <img src={Github} width="100" height="60" alt="github icon png background" />
             </button></a>
-            <h2>Specific project links</h2>
+            <h2>Recent project links</h2>
             <div className="left-col">
 
 
