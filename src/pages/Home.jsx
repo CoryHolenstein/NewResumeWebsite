@@ -10,8 +10,7 @@ function Home() {
 
     return (
         <div>
-
-
+         
             <About />
             <Projects />
             <Contact />

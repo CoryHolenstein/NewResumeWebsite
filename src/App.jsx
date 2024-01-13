@@ -1,7 +1,7 @@
 
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
-
+import { Helmet } from "react-helmet";
 import Home from "./pages/Home"
 import Error from "./pages/Error"
 
@@ -12,9 +12,12 @@ function App() {
 
   return (
       <div className="App">
+          <Helmet>
+              <title>CH Website</title>
+          </Helmet>
       <Routes>
-
-
+            
+        
               <Route path="/" element={<Home />} />
               <Route path="/home" element={<Home />} />
               <Route path="home" element={<Home />} />
