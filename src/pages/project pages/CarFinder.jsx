@@ -11,12 +11,13 @@ function About() {
             <h1> Car Finder</h1>
             <h3> Personal project </h3>
 
-            <p>Client: React AWS Amplify</p>
-            <p>API: AWS HTTP API Gateway</p>
+            <p>Serverless Architecture</p>
+            <p>Client: React</p>
+            <p>API: AWS HTTP API Gateway + AWS Lambda for backend functions </p>
             <p>DB: MySQL</p>
             <p></p>
-            <p> </p>
             <p> <a href="https://github.com/CoryHolenstein/CarFinder2">Client</a></p>
+            <p> <a href="https://carparkspotsaver.web.app/">Live demo</a></p>
 
 
 

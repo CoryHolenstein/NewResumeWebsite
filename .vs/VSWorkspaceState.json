@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\pages"
+    "\\src\\pages",
+    "\\src\\pages\\project pages"
   ],
-  "SelectedNode": "\\src\\pages\\Footer.jsx",
+  "SelectedNode": "\\src\\pages\\project pages\\CarFinder.jsx",
   "PreviewInSolutionExplorer": false
 }
